@@ -1,0 +1,53 @@
+input[type="text"] {
+    width: 30%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-left: 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+input::placeholder{
+    color: rgba(204, 204, 204, 0.38);
+}
+
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background-color: rgba(240, 158, 207, 0);
+    border: 1px solid rgba(204, 204, 204, 0.94);
+
+    padding: 8px;
+    width: 30%;
+
+    outline: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+input[type="date"]:hover {
+    border-color: #999;
+}
+input[type="date"]:focus {
+    border-color: #555;
+}
+input[type="date"]::placeholder {
+    color: transparent;
+}
+
+label{
+    display: inline-block;
+    width: 15%;
+    margin-left: 10px;
+}
+
+.inline-block .input-w {
+    display: block;
+    width: 100%;
+}
+
+.inline-block label, .inline-block input {
+    display: inline-block;
+    vertical-align: middle;
+}

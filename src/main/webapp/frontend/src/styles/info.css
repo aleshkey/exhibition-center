@@ -1,0 +1,17 @@
+.info{
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+}
+
+.all-items {
+    list-style-type: none;
+}
+
+.all-items li {
+    padding-left: 20px;
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1614519413_154-p-serdechko-na-belom-fone-187.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto 9px;
+}
